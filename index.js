@@ -131,7 +131,7 @@ Link Picture and name here to
 https://forthebadge.com/images/badges/built-with-love.svg
 https://img.shields.io/github/languages/code-size/badges/shields.svg
 https://img.shields.io/github/languages/top/badges/shields.svg
-https://img.shields.io/badge/made%20by-${data.user}-blue.svg
+<img src="https://img.shields.io/badge/made%20by-${data.user}-blue.svg"
 
 `
   
