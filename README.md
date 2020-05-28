@@ -1,18 +1,21 @@
 
-# Title
+# title
 
 
 ## Description 
     
-title desc
+desc
     
     
 ## Table of Contents
     
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Badges](#badges)
 * [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
     
 ## Installation
@@ -22,22 +25,33 @@ title desc
     
 ## Usage 
     
-do this
-    
-    
-## Badges
-    
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-    
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-    
-    
+dkfjdk
+
+
+## License
+
+if Y include general license else exclude
+
+
 ## Contributing
     
-Me
+me
     
     
 ## Tests
 
-n
+no
+    
+
+## Questions
+
+Please direct any and all questions to (email address)
+Link Picture and name here to
+
+## Badges
+    
+https://forthebadge.com/images/badges/built-with-love.svg
+https://img.shields.io/github/languages/code-size/badges/shields.svg
+https://img.shields.io/github/languages/top/badges/shields.svg
+https://img.shields.io/badge/made%20by-jonkesler-blue.svg
 
