@@ -11,6 +11,10 @@ issues
 
 uses badges
 [![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+
+https://forthebadge.com/images/badges/built-with-love.svg
+
 
 cheatsheet
 https://github.com/ritaly/README-cheatsheet
