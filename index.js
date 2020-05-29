@@ -47,9 +47,14 @@ inquirer.prompt([
       message: "What are the instructions on how to use your Project?"
     },
     {
-      type: "input",
+      type: "list",
+      message: "What type of License will you use with your Project?",
       name: "license",
-      message: "Would you like to add a license to your Project? Y/N"
+      choices: [
+        "GNU General Public License v3.0",
+        "MIT License",
+        "Existing projects and communities"
+      ]
     },
     {
       type: "input",
@@ -77,6 +82,17 @@ inquirer.prompt([
       
     var rMe = "readme.md";
     const text = `
+    [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+    [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+    [![forthebadge](https://forthebadge.com/images/badges/fo-real.svg)](https://forthebadge.com)
+    [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+    [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+    
+    
+    ![GitHub contributors](https://img.shields.io/github/contributors/${data.user}/${data.repo})
+    ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/${data.user}/${data.repo}?style=for-the-badge)
+    ![GitHub repo size](https://img.shields.io/github/repo-size/${data.user}/${data.repo})
+
 # ${data.title}
 
 
@@ -89,7 +105,6 @@ ${data.desc}
     
 * [Installation](#installation)
 * [Usage](#usage)
-* [Badges](#badges)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -99,16 +114,34 @@ ${data.desc}
 ## Installation
     
 ${data.inst}
+
+1. Clone the repo
+
+git clone https://github.com/${data.user}/${data.repo}
+
+2. Install MPM packages
+
+npm install
+
+3. Run node
+
+node index
+
+4. Answer questions about ReadMe.
+
+5. upload ReadMe.md to GitHub
     
     
 ## Usage 
     
 ${data.usage}
+Use this space to show useful examples of how a project can be used. Additional screenshots, 
+code examples and demos work well in this space. You may also link to more resources.
 
 
 ## License
 
-if Y include general license else exclude
+This Project uses a ${data.license} License.
 
 
 ## Contributing
@@ -121,24 +154,13 @@ ${data.contrib}
 ${data.test}
     
 
-## Questions
+## Contact
 
-Please direct any and all questions to ${data.email}
-Link Picture and name here to
+${data.name} - ${data.email}
 
-## Badges
-    
-https://forthebadge.com/images/badges/built-with-love.svg
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/fo-real.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/goodREADMEgenerator?style=for-the-badge)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/${data.user}/${data.repo}?style=for-the-badge)
-https://img.shields.io/github/languages/code-size/badges/shields.svg
-https://img.shields.io/github/languages/top/badges/shields.svg
-<img src="https://img.shields.io/badge/made%20by-${data.user}-blue.svg"
+Project Link: https://github.com/${data.user}/${data.repo}
+
+
 
 `
   
@@ -148,7 +170,7 @@ https://img.shields.io/github/languages/top/badges/shields.svg
         return console.log(err);
       }
   
-      console.log("Success!");
+      console.log(data.license);
       console.log(rMe);
   
   
