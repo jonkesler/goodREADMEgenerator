@@ -1,21 +1,21 @@
 
-    [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-    [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-    [![forthebadge](https://forthebadge.com/images/badges/fo-real.svg)](https://forthebadge.com)
-    [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-    [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/fo-real.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
     
     
-    ![GitHub contributors](https://img.shields.io/github/contributors/jonkesler/goodREADMEgenerator)
-    ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/goodREADMEgenerator?style=for-the-badge)
-    ![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/goodREADMEgenerator)
+![GitHub contributors](https://img.shields.io/github/contributors/jonkesler/goodREADMEgenerator)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/goodREADMEgenerator?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/goodREADMEgenerator)
 
-# Readmne
+# ReadMe
 
 
 ## Description 
     
-djfkdsj
+Desc
     
     
 ## Table of Contents
@@ -30,19 +30,19 @@ djfkdsj
     
 ## Installation
     
-1. download 2. dkfjdk 3. dkfjjaks
+kdfjfk
 
 1. Clone the repo
 
-git clone https://github.com/jonkesler/goodREADMEgenerator
+    git clone https://github.com/jonkesler/goodREADMEgenerator
 
 2. Install MPM packages
 
-npm install
+    npm install
 
 3. Run node
 
-node index
+    node index
 
 4. Answer questions about ReadMe.
 
@@ -51,7 +51,7 @@ node index
     
 ## Usage 
     
-djfdkjfkd 2. dkfjdkla
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, 
 code examples and demos work well in this space. You may also link to more resources.
 
@@ -63,17 +63,18 @@ This Project uses a MIT License License.
 
 ## Contributing
     
-Me
+jonkesler
+Josh
     
     
 ## Tests
 
-1.kdfjkds 2. dklajf
+no
     
 
 ## Contact
 
-undefined - jkesler@hotmail.com
+jonkesler - jkesler@hotmail.com
 
 Project Link: https://github.com/jonkesler/goodREADMEgenerator
 
