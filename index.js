@@ -154,7 +154,8 @@ ${data.test}
 
 ## Contact
 
-If you would like to contribute to this project please contact ${ gitName } @ ${gitEmail}
+                                                                ${ gitAvatar }
+If you would like to contribute to this project please contact ${ gitName } @ ${ gitEmail }   
 
 
 

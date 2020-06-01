@@ -36,7 +36,7 @@ Clone the Repo,Install NPM packages,Run node,Answer questions about ReadMe,Uploa
       
 ## Usage 
     
-Using Node you can answer a few questions and your readme is created.
+Using Node you can answer a few questions and your readme is created. 
 
 
 ## License
@@ -57,7 +57,8 @@ Lots of testing with the GitHub api.
 
 ## Contact
 
-If you would like to contribute to this project please contact Jon Kesler @ null
+                                                                https://avatars3.githubusercontent.com/u/60242682?v=4
+If you would like to contribute to this project please contact Jon Kesler @ null   
 
 
 
