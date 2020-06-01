@@ -10,13 +10,13 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/goodREADMEgenerator?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/goodREADMEgenerator)
 
-# Readme Generator
+# ReadMe Generator
 
 
 
 ## Description 
     
-this will create a git repository readme using node.js
+Creates a GitHub ReadMe file
     
     
 ## Table of Contents
@@ -33,28 +33,10 @@ this will create a git repository readme using node.js
     
 Clone the Repo,Install NPM packages,Run node,Answer questions about ReadMe,Upload ReadMe.md to GitHub
 
-1. Clone the repo
-
-    git clone https://github.com/jonkesler/goodREADMEgenerator
-
-2. Install NPM packages
-
-    npm install
-
-3. Run node
-
-    node index
-
-4. Answer questions about ReadMe.
-
-5. upload ReadMe.md to GitHub
-    
-    
+      
 ## Usage 
     
-To create a ReadMe file.
-Use this space to show useful examples of how a project can be used. Additional screenshots, 
-code examples and demos work well in this space. You may also link to more resources.
+Using Node you can answer a few questions and your readme is created.
 
 
 ## License
@@ -70,7 +52,7 @@ Jon Kesler
     
 ## Tests
 
-Getting data from GIT and saving it to a variable so it can be used in the Readme.
+Lots of testing with the GitHub api.
     
 
 ## Contact

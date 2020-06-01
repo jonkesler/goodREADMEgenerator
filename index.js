@@ -130,28 +130,10 @@ ${data.desc}
     
 ${data.inst}
 
-1. Clone the repo
-
-    git clone https://github.com/${data.user}/${data.repo}
-
-2. Install NPM packages
-
-    npm install
-
-3. Run node
-
-    node index
-
-4. Answer questions about ReadMe.
-
-5. upload ReadMe.md to GitHub
-    
-    
+      
 ## Usage 
     
 ${data.usage}
-Use this space to show useful examples of how a project can be used. Additional screenshots, 
-code examples and demos work well in this space. You may also link to more resources.
 
 
 ## License
