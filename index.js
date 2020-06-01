@@ -1,5 +1,7 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
+const axios = require("axios");
+
 
 // ****Provided code****
 // const questions = [
@@ -23,16 +25,6 @@ inquirer.prompt([
   },
   {
     type: "input",
-    name: "name",
-    message: "What is your full name?"
-  },
-  {
-    type: "input",
-    name: "email",
-    message: "What is your GitHub email address?"
-  },
-  {
-    type: "input",
     name: "repo",
     message: "What is your Project Repository?"
   },
@@ -47,14 +39,21 @@ inquirer.prompt([
     message: "What is your Project Description?"
   },
   {
-    type: "input",
+    type: "checkbox",
+    message: "What steps are needed to install your Project?",
     name: "inst",
-    message: "What steps are needed to install your Project?"
+    choices: [
+      "Clone the Repo", 
+      "Install NPM packages", 
+      "Run node", 
+      "Answer questions about ReadMe",
+      "Upload ReadMe.md to GitHub"
+    ]
   },
   {
     type: "input",
     name: "usage",
-    message: "What are the instructions on how to use your Project?"
+    message: "Example of how can your Projectbe used?"
   },
   {
     type: "list",
@@ -76,10 +75,24 @@ inquirer.prompt([
     name: "test",
     message: "What tests have your run on your Project?"
   },
+ 
+  ])
+  .then(function(data) {
 
+// // Start of GitHub Api
+// // *******************************************
+const queryUrl = `https://api.github.com/users/${data.user}`;
 
-  
-  ]).then(function(data) {
+axios.get(queryUrl).then(function(res) {
+
+    const gitName = res.data.name;
+    const gitAvatar = res.data.avatar_url;
+    const gitEmail = res.data.email;
+
+    console.log(gitName);
+    console.log(gitAvatar);
+    console.log(gitEmail)
+
       
     var rMe = "readme.md";
     const text = `
@@ -97,6 +110,7 @@ inquirer.prompt([
 # ${data.title}
 
 
+
 ## Description 
     
 ${data.desc}
@@ -109,7 +123,7 @@ ${data.desc}
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Contact](#contact)
     
     
 ## Installation
@@ -120,7 +134,7 @@ ${data.inst}
 
     git clone https://github.com/${data.user}/${data.repo}
 
-2. Install MPM packages
+2. Install NPM packages
 
     npm install
 
@@ -147,7 +161,7 @@ This Project uses a ${data.license} License.
 
 ## Contributing
     
-${data.name}
+${ gitName }
 ${data.contrib}
     
     
@@ -158,23 +172,25 @@ ${data.test}
 
 ## Contact
 
-${data.name} - ${data.email}
+If you would like to contribute to this project please contact ${ gitName } @ ${gitEmail}
+
+
 
 Project Link: https://github.com/${data.user}/${data.repo}
 
 
 
 `
-  
+ 
     fs.writeFile(rMe, text, function(err) {
   
       if (err) {
         return console.log(err);
       }
   
-      console.log(data.license);
-      console.log(rMe);
-  
+      // console.log(data.license);
+      // console.log(rMe)
   
     });
-  });
+  })
+})
