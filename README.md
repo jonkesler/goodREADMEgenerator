@@ -41,15 +41,9 @@ Download from GitHub
 
 <img src="images/clone.mp4">
 
-<video width="320" height="240" controls>
-  <source src="./imges/clone.mp4" type="video/mp4">
-</video>
-
 Install and run with Node.js
 
-<video width="320" height="240" controls>
-  <source src="./imges/useNode.mp4" type="video/mp4">
-</video>
+<img src="./images/useNode.gif">
 
 ## License
 
