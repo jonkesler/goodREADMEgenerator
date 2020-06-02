@@ -39,7 +39,7 @@ Screen Shot
 
 Download from GitHub
 
-<img src="./images/clone.mp4">
+<img src="images/clone.mp4">
 
 <video width="320" height="240" controls>
   <source src="./imges/clone.mp4" type="video/mp4">
