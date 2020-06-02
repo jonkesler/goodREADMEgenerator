@@ -16,7 +16,7 @@
 
 ## Description 
     
-Creates a GitHub ReadMe file
+Creates a readme file using node.js
     
     
 ## Table of Contents
@@ -31,12 +31,12 @@ Creates a GitHub ReadMe file
     
 ## Installation
     
-Clone the Repo,Install NPM packages,Run node,Answer questions about ReadMe,Upload ReadMe.md to GitHub
+Clone the Repo,Install NPM packages,Run node,Upload ReadMe.md to GitHub
 
       
 ## Usage 
     
-Using Node you can answer a few questions and your readme is created. 
+To create a readme file on the fly.
 
 
 ## License
@@ -47,12 +47,12 @@ This Project uses a MIT License License.
 ## Contributing
     
 Jon Kesler
-
+Just me
     
     
 ## Tests
 
-Lots of testing with the GitHub api.
+Lots of testing with the GitHub Api.  It was not to friendly at first.
     
 
 ## Contact
