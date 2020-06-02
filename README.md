@@ -39,7 +39,7 @@ Screen Shot
 
 Download from GitHub
 
-<img src="images/clone.mp4">
+<img src="./images/clone.mp4">
 
 Install and run with Node.js
 
