@@ -34,14 +34,17 @@ Clone the Repo,Install NPM packages,Run node,Answer questions,Upload ReadMe.md t
 To create a readme file on the fly.
 
 Screen Shot
+
 <img src="./images/screenshot.png">
 
-Download from GitHub                      
+Download from GitHub
+
 <video width="320" height="240" controls>
   <source src="./imges/clone.mp4" type="video/mp4">
 </video>
 
 Install and run with Node.js
+
 <video width="320" height="240" controls>
   <source src="./imges/useNode.mp4" type="video/mp4">
 </video>
