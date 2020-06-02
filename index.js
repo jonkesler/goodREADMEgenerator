@@ -53,7 +53,7 @@ inquirer.prompt([
   {
     type: "input",
     name: "usage",
-    message: "Example of how can your Projectbe used?"
+    message: "Example of how can your Project can be used?"
   },
   {
     type: "list",
@@ -154,10 +154,11 @@ ${data.test}
 
 ## Contact
 
-                                                                <img src="${ gitAvatar }">
+<img src="${ gitAvatar }">
+
 If you would like to contribute to this project please contact: 
-${ gitName } 
-Email:${ gitEmail }   
+  ${ gitName } 
+  Email:${ gitEmail }   
 
 
 Project Link: https://github.com/${data.user}/${data.repo}

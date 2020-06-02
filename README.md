@@ -10,13 +10,13 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/goodREADMEgenerator?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/goodREADMEgenerator)
 
-# Creates a GitHub ReadMe file
+# ReadMe Generator
 
 
 
 ## Description 
     
-Clone the Repo, Install NPM packages, Run node, Answer questions about ReadMe, Upload ReadMe.md to GitHub
+Creates a GitHub ReadMe file
     
     
 ## Table of Contents
@@ -57,10 +57,11 @@ Lots of testing with the GitHub api.
 
 ## Contact
 
-                                                                <img src="https://avatars3.githubusercontent.com/u/60242682?v=4">
+<img src="https://avatars3.githubusercontent.com/u/60242682?v=4">
+
 If you would like to contribute to this project please contact: 
-Jon Kesler 
-Email:null   
+  Jon Kesler 
+  Email:null   
 
 
 Project Link: https://github.com/jonkesler/goodREADMEgenerator
