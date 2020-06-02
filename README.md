@@ -65,6 +65,7 @@ Lots of testing with the GitHub Api.  It was not to friendly at first.
 <img src="https://avatars3.githubusercontent.com/u/60242682?v=4">
 
 If you would like to contribute to this project please contact: 
+
   Jon Kesler 
   
   Email:jkesler@hotmail.com   
