@@ -154,9 +154,10 @@ ${data.test}
 
 ## Contact
 
-                                                                ${ gitAvatar }
-If you would like to contribute to this project please contact ${ gitName } @ ${ gitEmail }   
-
+                                                                <img src="${ gitAvatar }">
+If you would like to contribute to this project please contact: 
+${ gitName } 
+Email:${ gitEmail }   
 
 
 Project Link: https://github.com/${data.user}/${data.repo}
