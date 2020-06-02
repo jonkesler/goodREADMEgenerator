@@ -66,11 +66,14 @@ Lots of testing with the GitHub Api.  It was not to friendly at first.
 
 If you would like to contribute to this project please contact: 
   Jon Kesler 
+  
   Email:jkesler@hotmail.com   
 
 
 Web URL: https://github.com/jonkesler/goodREADMEgenerator
+
 Repository URL: https://github.com/jonkesler/goodREADMEgenerator.git
+
 Repository SSH: git@github.com:jonkesler/goodREADMEgenerator.git
 
 
